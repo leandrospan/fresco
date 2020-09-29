@@ -1,0 +1,21 @@
+.titulo{
+    font-size: x-large;
+    font-weight: bolder;
+    color: #3ED89C;
+}
+
+.entradas{
+    color: #3ED89C;
+    margin-left: 15px;
+    margin-right: 15px;
+    --highlight-background: #3ED89C;
+}
+
+.entradas.item-has-focus > ion-label{
+    color: #3ED89C !important;
+}
+
+.botao{
+    color: white;
+    --background: #3ED89C;
+}

@@ -1,0 +1,44 @@
+ion-slides{
+    height: 100%;
+    --bullet-background-active: #3ED89C;
+    --bullet-background: #D2FFEE;
+}
+
+ion-slide{
+    background-size: cover;
+    background-position: center;
+}
+
+.slide1{
+    background-image: url('../../assets/xmen002.jpg');
+}
+
+.slide2{
+    background-image: url('../../assets/xforce.jpg');
+}
+
+.slide3{
+    background-image: url('../../assets/xmen001.jpg');
+}
+
+.contexto{
+    background-image: linear-gradient(to bottom , rgba(255, 0, 0, 0), rgba(255, 255, 255, 1));
+    width: 360px;
+    height: 360px;
+    margin-top: 280px;
+}
+
+.texto{
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.subcontexto{
+    margin-top: 220px;
+}
+
+.botao{
+    margin-top: 15px;
+    margin-left: -90px;
+    --background: #3ED89C;
+}
