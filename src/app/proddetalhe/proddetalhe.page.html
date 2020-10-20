@@ -1,0 +1,30 @@
+<ion-content>
+  <div class="cabelho">
+    <ion-icon class="voltar" name="arrow-back" [routerLink]="['/produtos']">
+    </ion-icon>
+  </div>
+  <div class="produto">
+    <img class="comida" src="assets/comida001.png"><br>
+    <ion-label class="titulo">Sanduíche</ion-label>
+    <ion-label class="subtitulo">Vegetariano</ion-label><br>
+    <ion-label class="preco">R$ 25,00</ion-label>
+    <ion-chip class="q">
+      <ion-icon name="add" class="quantidade"></ion-icon>
+      <ion-label>3</ion-label>
+      <ion-icon name="remove" class="quantidade"></ion-icon>
+    </ion-chip>
+    <ion-slides class="info">
+      <ion-slide>
+        <ion-badge class="estatisticaprimeira">
+          <ion-label class="categoria">PESO</ion-label><br>
+          <div class="valor">
+            <ion-label>
+              <span class="v">250</span>
+              G
+            </ion-label>
+          </div>
+        </ion-badge>
+      </ion-slide>
+    </ion-slides>
+  </div>
+</ion-content>

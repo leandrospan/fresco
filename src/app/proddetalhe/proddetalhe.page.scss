@@ -1,0 +1,88 @@
+ion-content{
+    --background: #3ED89C;
+}
+
+.voltar{
+    color: red;
+    font-size: 40px;
+}
+
+.cabecalho{
+    padding-top: 10px;
+    padding-left: 10px;
+    height: 150px;
+}
+
+.produto{
+    width: 360px;
+    background: white;
+    border-radius: 25px;
+    color: black;
+    padding: 10px;
+    padding-top: 150px;
+    height: 550px;
+}
+
+.comida{
+    width: 250px;
+    position: absolute;
+    z-index: 2;
+    margin-top: -250px;
+    margin-left: 45px;
+}
+
+.titulo{
+    font-size: x-large;
+    font-weight: 900;
+    margin-left: 40px;
+}
+
+.subtitulo{
+    font-size: x-large;
+    margin-left: 5px;
+}
+
+.quantidade{
+    background: #3ED89C;
+    color: white;
+}
+
+.q{
+    margin-top: 20px;
+    background: #3ED89C;
+    color: white;
+    margin-left: 210px;
+}
+
+.preco{
+    margin-left: 45px;
+    margin-top: 25px;
+    position: absolute;
+}
+
+.estatisticaprimeira{
+    background: #3ED89C;
+    color: white;
+    height: 50px;
+    width: 90px;
+    border-radius: 15px;
+    padding: 8px;
+}
+
+.categoria{
+    margin-left: -30px;
+    font-size: 11px;
+}
+
+.valor{
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.v{
+    font-weight: 900;
+}
+
+.info{
+    margin-top: 60px;
+}

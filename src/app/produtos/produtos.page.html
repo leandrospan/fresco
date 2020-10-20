@@ -1,9 +1,213 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>produtos</ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content>
-
+  <ion-searchbar class="busca" placeholder=""></ion-searchbar>
+  <ion-label class="apresenta">Os mais pedidos</ion-label>
+  <!-- INÍCIO MAIS PEDIDOS -->
+  <ion-slides [options]="sliderConfig">
+    <ion-slide>
+      <ion-grid>
+        <ion-row>
+          <ion-col>
+            <img src="assets/comida001.png" class="prato">
+            <ion-badge class="favoritos">
+              <ion-grid class="espaco">
+                <ion-row>
+                  <ion-col>
+                    <ion-label class="titulo">Sanduíche Vegetariano</ion-label>
+                  </ion-col>
+                </ion-row>
+                <ion-row>
+                  <ion-col>
+                    <ion-icon name="star"></ion-icon>4.5 (votos)
+                  </ion-col>
+                </ion-row>
+                <ion-row class="centro">
+                  <ion-col>
+                    <ion-label>R$ 24,00</ion-label>
+                  </ion-col>
+                  <ion-col>
+                    <ion-chip class="adicionar" [routerLink]="['/proddetalhe']">
+                      Adicionar
+                    </ion-chip>
+                  </ion-col>
+                </ion-row>
+              </ion-grid>
+            </ion-badge>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-slide>
+    <ion-slide>
+      <ion-grid>
+        <ion-row>
+          <ion-col>
+            <img src="assets/comida001.png" class="prato">
+            <ion-badge class="favoritos">
+              <ion-grid class="espaco">
+                <ion-row>
+                  <ion-col>
+                    <ion-label class="titulo">Sanduíche Vegetariano</ion-label>
+                  </ion-col>
+                </ion-row>
+                <ion-row>
+                  <ion-col>
+                    <ion-icon name="star"></ion-icon>4.5 (votos)
+                  </ion-col>
+                </ion-row>
+                <ion-row class="centro">
+                  <ion-col>
+                    <ion-label>R$ 24,00</ion-label>
+                  </ion-col>
+                  <ion-col>
+                    <ion-chip class="adicionar">
+                      Adicionar
+                    </ion-chip>
+                  </ion-col>
+                </ion-row>
+              </ion-grid>
+            </ion-badge>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-slide>
+    <ion-slide>
+      <ion-grid>
+        <ion-row>
+          <ion-col>
+            <img src="assets/comida001.png" class="prato">
+            <ion-badge class="favoritos">
+              <ion-grid class="espaco">
+                <ion-row>
+                  <ion-col>
+                    <ion-label class="titulo">Sanduíche Vegetariano</ion-label>
+                  </ion-col>
+                </ion-row>
+                <ion-row>
+                  <ion-col>
+                    <ion-icon name="star"></ion-icon>4.5 (votos)
+                  </ion-col>
+                </ion-row>
+                <ion-row class="centro">
+                  <ion-col>
+                    <ion-label>R$ 24,00</ion-label>
+                  </ion-col>
+                  <ion-col>
+                    <ion-chip class="adicionar">
+                      Adicionar
+                    </ion-chip>
+                  </ion-col>
+                </ion-row>
+              </ion-grid>
+            </ion-badge>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-slide>
+    <ion-slide>
+      <ion-grid>
+        <ion-row>
+          <ion-col>
+            <img src="assets/comida001.png" class="prato">
+            <ion-badge class="favoritos">
+              <ion-grid class="espaco">
+                <ion-row>
+                  <ion-col>
+                    <ion-label class="titulo">Sanduíche Vegetariano</ion-label>
+                  </ion-col>
+                </ion-row>
+                <ion-row>
+                  <ion-col>
+                    <ion-icon name="star"></ion-icon>4.5 (votos)
+                  </ion-col>
+                </ion-row>
+                <ion-row class="centro">
+                  <ion-col>
+                    <ion-label>R$ 24,00</ion-label>
+                  </ion-col>
+                  <ion-col>
+                    <ion-chip class="adicionar">
+                      Adicionar
+                    </ion-chip>
+                  </ion-col>
+                </ion-row>
+              </ion-grid>
+            </ion-badge>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-slide>
+  </ion-slides>
+  <!-- TÉRMINO MAIS PEDIDOS -->
+  <!-- INÍCIO CATEGORIAS -->
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <div class="cafe">
+          <p>CAFÉ DA MANHÃ</p>
+        </div>
+      </ion-col>
+      <ion-col>
+        <div class="prato2">
+          <img src="assets/comida001.png" class="comida">
+        </div>
+      </ion-col>
+      <ion-col>
+        <div class="produto">
+          <div class="distancia">
+            <ion-label class="tituloc">Sanduíche Vegetariano</ion-label><br>
+            <ion-label class="preco">R$ 25,00</ion-label>
+            <ion-chip class="adicionar2">
+              Adicionar
+            </ion-chip>
+          </div>
+        </div>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <div class="almoco">
+          <p>ALMOÇO</p>
+        </div>
+      </ion-col>
+      <ion-col>
+        <div class="prato2">
+          <img src="assets/comida001.png" class="comida">
+        </div>
+      </ion-col>
+      <ion-col>
+        <div class="produto">
+          <div class="distancia">
+            <ion-label class="tituloc">Sanduíche Vegetariano</ion-label><br>
+            <ion-label class="preco">R$ 25,00</ion-label>
+            <ion-chip class="adicionar2">
+              Adicionar
+            </ion-chip>
+          </div>
+        </div>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <div class="jantar">
+          <p>JANTAR</p>
+        </div>
+      </ion-col>
+      <ion-col>
+        <div class="prato2">
+          <img src="assets/comida001.png" class="comida">
+        </div>
+      </ion-col>
+      <ion-col>
+        <div class="produto">
+          <div class="distancia">
+            <ion-label class="tituloc">Sanduíche Vegetariano</ion-label><br>
+            <ion-label class="preco">R$ 25,00</ion-label>
+            <ion-chip class="adicionar2">
+              Adicionar
+            </ion-chip>
+          </div>
+        </div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <!-- TÉRMINO CATEGORIAS -->
 </ion-content>

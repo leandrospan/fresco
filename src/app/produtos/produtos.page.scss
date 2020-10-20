@@ -1,0 +1,115 @@
+.busca{
+    --border-radius: 25px;
+    --icon-color: red;
+}
+
+.apresenta{
+    margin-left: 20px;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.favoritos{
+    border-radius: 25px;
+    --background: #3ED89C;
+    margin-top: 70px;
+    width: 160px;
+}
+
+.titulo{
+    font-size: 12px;
+    font-weight: bolder;
+    margin-left: -10px;
+}
+
+.adicionar{
+    --background: white;
+    --color: red;
+    font-size: x-small;
+}
+
+.centro{
+    height: 100%;
+    display: block;
+    vertical-align: middle;
+    font-size: small;
+}
+
+.espaco{
+    padding-top: 80px;
+}
+
+.prato{
+    position: absolute;
+    width: 150px;
+    margin-left: 5px;
+    z-index: 1;
+}
+
+.cafe{
+    color: red;
+    transform: rotate(-90deg);
+    margin-left: -60px;
+    margin-top: 50px;
+    position: absolute;
+}
+
+.almoco{
+    color: red;
+    transform: rotate(-90deg);
+    margin-left: -30px;
+    margin-top: 45px;
+    position: absolute;
+}
+
+.jantar{
+    color: red;
+    transform: rotate(-90deg);
+    margin-left: -30px;
+    margin-top: 50px;
+    position: absolute;
+}
+
+.prato2{
+    margin-left: -160px;
+    z-index: 10;
+    position: absolute;
+    margin-top: 20px;
+}
+
+.comida{
+    width: 100px;
+}
+
+.produto{
+    background-color: #3ED89C;
+    color: white;
+    border-radius: 25px;
+    width: 310px;
+    height: 120px;
+    margin-left: 70px;
+}
+
+.distancia{
+    padding-top: 20px;
+}
+
+.tituloc{
+    font-size: large;
+    font-weight: bolder;
+    margin-left: 50px;
+    padding-top: 25px;
+}
+
+.preco{
+    color: rgb(0, 56, 0);
+    font-weight: bolder;
+    margin-left: 50px;
+}
+
+.adicionar2{
+    --background: white;
+    --color: red;
+    font-size: x-small;
+    margin-left: 190px;
+}
